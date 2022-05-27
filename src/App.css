@@ -1,0 +1,48 @@
+body {
+  background: #ffffff;
+  margin: 0px;
+}
+
+.main-layout {
+  display: flex;
+}
+
+.list-layout {
+  width: 20%;
+}
+
+.list {
+  height: 90%;
+}
+
+.canvas {
+  width: 80%;
+  height: 100vh;
+}
+
+.button {
+  margin: 10px;
+  color: white;
+  background-color: rgb(129, 129, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+.choose-files {
+  margin-left: 20px;
+}
+
+.loading-state {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(129, 129, 129, 0.6);
+}
